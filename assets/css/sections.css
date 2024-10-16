@@ -1,0 +1,12 @@
+html {
+    background: linear-gradient(var(--white, var(--white2)));
+}
+
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#navbar, section.even {
+    background: linear-gradient(var(--primary), var(--primary2));
+}
