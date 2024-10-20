@@ -1,7 +1,7 @@
 #skillset > div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 1rem;
+  gap: 1rem;
   margin: 1rem;
 }
 
@@ -36,3 +36,13 @@
   transform: translate(-60px, 0px);
 }
 
+#skillset span:after {
+  content: "";
+  position: absolute;
+  border-width: 5px;
+  border-style: solid;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-color: rgba(0, 0, 0, 0.75) transparent transparent transparent;
+}
