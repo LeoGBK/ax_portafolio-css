@@ -29,10 +29,28 @@
   z-index: 1;
   top: 0;
   left: 0;
-  transition: opacity ease .3s;
+  transition: opacity ease 0.3s;
   opacity: 0;
 }
 
 #portfolio button:hover:before {
   opacity: 0.75;
+}
+
+#portfolio h4 {
+  display: block;
+  margin: 0;
+  position: absolute;
+  z-index: 2;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  color: var(--white);
+  opacity: 0;
+  transition: bottom ease 0.3s, opacity ease 0.3s;
+}
+
+#portfolio button:hover h4 {
+  bottom: 30%;
+  opacity: 1;
 }
