@@ -9,3 +9,9 @@
   border: none;
   cursor: zoom-in;
 }
+
+#portfolio img {
+    display: block;
+    max-height: 300px;
+    transition: transform .3s ease;
+}
