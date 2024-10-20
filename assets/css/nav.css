@@ -45,9 +45,19 @@
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding: 0%;
   margin: 0%;
-  /* max-height: 0; */
+  max-height: 0;
   transition: max-height 0.3s ease;
   position: absolute;
   width: 100%;
   overflow: hidden;
 }
+
+#navbar.open ul {
+    max-height: 150px;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0%;
+}
+
