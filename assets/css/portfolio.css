@@ -54,3 +54,16 @@
   bottom: 30%;
   opacity: 1;
 }
+
+#portfolio button:after {
+  content: url(/assets/img/icons/zoom.svg);
+  width: 50%;
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 0%;
+  transform: translate(-40%, -50%);
+  opacity: 0;
+  transition: top ease 0.3s, opacity ease 0.3s;
+}
+
