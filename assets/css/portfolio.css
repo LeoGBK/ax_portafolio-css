@@ -67,3 +67,7 @@
   transition: top ease 0.3s, opacity ease 0.3s;
 }
 
+#portfolio button:hover:after {
+  top: 40%;
+  opacity: 0.75;
+}
