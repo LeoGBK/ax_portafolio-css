@@ -1,0 +1,10 @@
+#experience img {
+  background: white;
+  width: 150px;
+  height: 150px;
+  padding: 2rem;
+  border: 5px solid var(--primary);
+  border-radius: 25px;
+  cursor: pointer;
+  transition: border-radius 0.3s ease, box-shadow 0.3s ease;
+}
