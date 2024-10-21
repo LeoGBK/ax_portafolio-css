@@ -18,10 +18,25 @@ textarea:focus {
   border: none;
   background-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
-  cursor: pointer;
+  cursor: text;
   margin: 1rem 0 2rem;
 }
 
 textarea {
   resize: none;
+}
+
+form button {
+  background-color: var(--secondary);
+  color: var(--white);
+  margin: 3rem;
+  border: none;
+  padding: 1rem;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: var(--secondary-dark);
 }
