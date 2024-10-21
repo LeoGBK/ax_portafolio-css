@@ -38,5 +38,28 @@ form button {
 }
 
 form button:hover {
-    background-color: var(--secondary-dark);
+  background-color: var(--secondary-dark);
+}
+
+#social-media img {
+  border-radius: 10rem;
+  background-color: var(--white);
+  transition: all 0.3s ease;
+  margin: 1rem;
+}
+
+#social-media a {
+  text-decoration: none;
+}
+
+#linkedin:hover {
+  background-color: #0077b5;
+}
+
+#github:hover {
+  background-color: black;
+}
+
+#youtube:hover {
+  background-color: red;
 }
